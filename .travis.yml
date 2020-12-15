@@ -1,5 +1,8 @@
 os: linux
 language: c
+arch:
+  - amd64
+  - ppc64le
 compiler: gcc
 before_install:
   - wget https://download.gnome.org/sources/vala/0.39/vala-0.39.5.tar.xz
